@@ -1,8 +1,8 @@
-# Docker WordPress driver
+# Docker WordPress plugin driver, for testing plugins
 
 Description
 ---
-A bash script to compose a WordPress, WP-CLI, MySQL environment in Docker, and run through some startup tasks.
+A bash script to compose a WordPress, WP-CLI, PHP, MySQL environment in Docker, and run through some startup tasks, for testing WordPress plugins.
 
 Installation
 ---
