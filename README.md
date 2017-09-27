@@ -13,13 +13,28 @@ Usage
 ---
 
 ```bash
-./compose.sh OVERRIDE.yaml PLUGIN-TO-ENABLE
+./compose.sh REQUIRED-OVERRIDE.yaml PLUGIN-TO-ENABLE
 ```
 
 **TODO:** future usage...
 
 ```bash
-./compose.sh OVERRIDE.yaml [--enable-plugin=PLUGIN1,PLUGIN2,...]
+./compose.sh REQUIRED-OVERRIDE.yaml [--enable-plugin=PLUGIN1,PLUGIN2,...]
+```
+
+## Override file
+The override file is required.
+
+```yaml
+version: "3"
+services:
+
+  wordpress: 
+    image: biagio2chl/wordpress-ci
+
+  mysql: 
+    image: mysql:latest
+
 ```
 
 ## Examples
