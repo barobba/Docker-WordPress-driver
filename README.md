@@ -1,4 +1,4 @@
-# Docker WordPress plugin driver, for testing plugins
+# Docker WordPress plugin driver (for testing plugins)
 
 Description
 ---
