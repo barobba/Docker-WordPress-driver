@@ -21,5 +21,8 @@ Usage
 
 ## Examples
 
+    # Current usage:
     ./compose.sh stack-override2.yaml chl-news-notifications
+    
+    # Future usage:
     ./compose.sh stack-override2.yaml --enable-plugin=chl-news-notifications
