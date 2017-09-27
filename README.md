@@ -17,8 +17,8 @@ Usage
 ```
 
 **TODO:**  
-Future usage...  
 
+Future usage...
 ```bash
 ./compose.sh REQUIRED-OVERRIDE.yaml [--enable-plugin=PLUGIN1,PLUGIN2,...]
 ```
