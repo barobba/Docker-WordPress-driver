@@ -12,17 +12,22 @@ Place the WordPress plugin in the "plugin" folder.
 Usage
 ---
 
-    ./compose.sh OVERRIDE.yaml PLUGIN-TO-ENABLE
+```
+./compose.sh OVERRIDE.yaml PLUGIN-TO-ENABLE
+```
 
 **TODO:** future usage...
 
-    ./compose.sh OVERRIDE.yaml [--enable-plugin=PLUGIN1,PLUGIN2,...]
-
+```
+./compose.sh OVERRIDE.yaml [--enable-plugin=PLUGIN1,PLUGIN2,...]
+```
 
 ## Examples
 
-    # Current usage:
-    ./compose.sh stack-override2.yaml chl-news-notifications
-    
-    # Future usage:
-    ./compose.sh stack-override2.yaml --enable-plugin=chl-news-notifications
+```bash
+# Current usage:
+./compose.sh stack-override2.yaml chl-news-notifications
+
+# Future usage:
+./compose.sh stack-override2.yaml --enable-plugin=chl-news-notifications
+```
