@@ -30,7 +30,7 @@ Usage
 ```
 
 ## Override file
-The override file is required.
+The override file is required, so at least we know which versions of WordPress, PHP, and MySQL to run.
 
 ```yaml
 version: "3"
