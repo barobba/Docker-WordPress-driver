@@ -22,6 +22,16 @@ Usage
 ./compose.sh REQUIRED-OVERRIDE.yaml [--enable-plugin=PLUGIN1,PLUGIN2,...]
 ```
 
+**Examples:**  
+
+```bash
+# Current usage:
+./compose.sh stack-override2.yaml chl-news-notifications
+
+# Future usage:
+./compose.sh stack-override2.yaml --enable-plugin=chl-news-notifications
+```
+
 ## Override file
 The override file is required.
 
@@ -35,14 +45,4 @@ services:
   mysql: 
     image: mysql:latest
 
-```
-
-## Examples
-
-```bash
-# Current usage:
-./compose.sh stack-override2.yaml chl-news-notifications
-
-# Future usage:
-./compose.sh stack-override2.yaml --enable-plugin=chl-news-notifications
 ```
