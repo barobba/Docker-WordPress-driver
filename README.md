@@ -2,7 +2,7 @@
 
 Description
 ---
-A bash script to compose a WordPress, WP-CLI, PHP, MySQL environment in Docker, and run through some startup tasks, for testing WordPress plugins.
+A bash script to compose a WordPress environment in Docker (including WP-CLI, PHP, and MySQL) and run through some startup tasks for the purpose of testing WordPress plugins.
 
 Installation
 ---
