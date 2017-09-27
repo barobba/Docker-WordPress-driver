@@ -14,12 +14,8 @@ Usage
 
 ```bash
 ./compose.sh REQUIRED-OVERRIDE.yaml PLUGIN-TO-ENABLE
-```
 
-**TODO:**  
-
-Future usage...
-```bash
+# TODO: Future usage...
 ./compose.sh REQUIRED-OVERRIDE.yaml [--enable-plugin=PLUGIN1,PLUGIN2,...]
 ```
 
