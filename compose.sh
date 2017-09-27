@@ -116,11 +116,11 @@ main_script() {
 
     if [ -z "$2" ]; then
         : # pass
-          # TODO: Swap this with the ELSE portion
+          # TODO: Swap this with the ELSE portion (might need to use getopt)
     else
 
         # Enable plugin
-        # TODO: Use format --enable-plugin PLUGIN
+        # TODO: Use format --enable-plugin=PLUGIN1,PLUGIN2
         docker exec -i $wordpress_container \
             bash -c 'wp plugin activate $2 --allow-root'
 
