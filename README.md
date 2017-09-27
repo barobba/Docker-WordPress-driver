@@ -16,7 +16,7 @@ Usage
 ./compose.sh REQUIRED-OVERRIDE.yaml PLUGIN-TO-ENABLE
 ```
 
-**TODO:** future usage...
+**TODO: future usage...**  
 
 ```bash
 ./compose.sh REQUIRED-OVERRIDE.yaml [--enable-plugin=PLUGIN1,PLUGIN2,...]
