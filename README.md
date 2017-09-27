@@ -13,7 +13,7 @@ Usage
 ---
 ./compose.sh OVERRIDE.yaml PLUGIN-TO-ENABLE
 
-**TODO:** *Future usage...*  
+**TODO...** *future usage:*  
 ./compose.sh OVERRIDE.yaml [--enable-plugin=PLUGIN1,PLUGIN2,...]
 
 
