@@ -14,8 +14,8 @@ Usage
 ./compose.sh OVERRIDE.yaml PLUGIN-TO-ENABLE
 
 **TODO:**  
-*Future usage...*  
-./compose.sh OVERRIDE.yaml [--enable-plugin=PLUGIN1,PLUGIN2,...]
+... *Future usage...*  
+... ./compose.sh OVERRIDE.yaml [--enable-plugin=PLUGIN1,PLUGIN2,...]
 
 
 ## Examples
