@@ -68,8 +68,8 @@ wait_for_wordpress_container_to_be_ready() {
 
 main_script() {
 
-    local wordpress_container=bbna-notificationclient-wordpress
-    local mysql_container=bbna-notificationclient-mysql
+    local wordpress_container=dwppt-wordpress
+    local mysql_container=dwppt-mysql
 
     echo '# Removing containers to clear out existing data'
 
