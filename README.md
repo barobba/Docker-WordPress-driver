@@ -12,13 +12,13 @@ Place the WordPress plugin in the "plugin" folder.
 Usage
 ---
 
-```
+```bash
 ./compose.sh OVERRIDE.yaml PLUGIN-TO-ENABLE
 ```
 
 **TODO:** future usage...
 
-```
+```bash
 ./compose.sh OVERRIDE.yaml [--enable-plugin=PLUGIN1,PLUGIN2,...]
 ```
 
