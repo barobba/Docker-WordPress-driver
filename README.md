@@ -15,7 +15,7 @@ Usage
 
 **TODO:** Future usage:  
 
-... ./compose.sh OVERRIDE.yaml [--enable-plugin=PLUGIN1,PLUGIN2,...]
+  ./compose.sh OVERRIDE.yaml [--enable-plugin=PLUGIN1,PLUGIN2,...]
 
 
 ## Examples
