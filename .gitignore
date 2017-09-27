@@ -1,3 +1,6 @@
+
 plugins/*
 !plugins/.gitkeep
+
 *.override.yaml
+!stack-example.override.yaml

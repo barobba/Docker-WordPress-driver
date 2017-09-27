@@ -1,0 +1,9 @@
+
+version: "3"
+services:
+
+  wordpress: 
+    image: biagio2chl/wordpress-ci
+
+  mysql: 
+    image: mysql:latest
